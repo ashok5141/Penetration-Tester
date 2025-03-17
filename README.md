@@ -180,6 +180,57 @@ We must internalize this procedure and use it as a basis for all our technical e
     - Persistence
     - Data Exfiltration
 - Evasive Testing 
+    - If a skilled administrator monitors the systems, any change or even a single command could trigger an alarm that will give us away. In many cases, we get kicked out of the network, and then threat hunting begins where we are the focus. We may also lose access to a host(that gets quarantined) or a user account(that gets temporarily disabled or the password changed). This penetration test would have failed but succeeded in some ways because the client could detect some actions.
     - a type of security testing where attackers or ethical hackers try to bypass security measures, like firewalls and intrusion detection systems, to gain unauthorized access to a system or application. 
-    - Whatever the activity we do that it will be monitered commands like whoami, user those flagged in the system monitering and SOC EDRs
-    
+    - Whatever the activity we do that it will be monitered commands like whoami, net user those flagged in the system monitering and SOC EDRs
+
+#### Lateral Movement
+- In all previous steps are successful then comes to the lateral movement, in exploitation part entered to the system them post-exploitation escalated previleges high level uses then in this stage try we test what attacker could the sensitive data in entire network or infect with ransomware in the network.
+- We want to test how far we can move manually in the entire network and what vulnerabilities we can find from the internal perspective that might be exploited. In doing so, we will again run through several phases:
+    - Pivoting:- Lets take an exaple exploited target host in that we don't proper tools to enumerate, make proxy connection to our network to enumerate, Our home printer acceessiable in home network.
+    - Evasion Testing:- There are many ways to protect against lateral movement, including network (micro) segmentation, threat monitoring, IPS/IDS, EDR, etc
+    - Information Gathering:- Before we target the internal network, we must first get an overview of which systems
+    - Vulnerability Assessment:- Vulnerability assessment from the inside of the network differs from the previous procedures. 
+    - (Privileges) Exploitation
+    - Post-Exploitation
+
+#### Proof-of-Concept
+- Proof of Concept (PoC) or Proof of Principle is a project management term. In project management, it serves as proof that a project is feasible in principle.
+- The criteria for this can lie in technical or business factors. Therefore, it is the basis for further work, in our case, the necessary steps to secure the corporate network by confirming the discovered vulnerabilities.
+- A PoC can have many different representations. For example, documentation of the vulnerabilities found can also constitute a PoC. The more practical version of a PoC is a script or code that automatically exploits the vulnerabilities found. 
+- This demonstrates the flawless exploitation of the vulnerabilities. This variant is straightforward for an administrator or developer because they can see what steps our script takes to exploit the vulnerability.
+
+#### Post-Engagement
+- we must perform many activities (many of them contractually binding) after our scans, exploitation, lateral movement, and post-exploitation activities are complete. No two engagements are the same, so these activities may differ slightly but generally must be performed to close out an engagement fully.
+- DOcument Reporting steps
+    - An attack chain (in the event of full internal compromise or external to internal access) detailing steps taken to achieve compromise A strong executive summary that a non-technical audience can understand
+    - Detailed findings specific to the client's environment that include a risk rating, finding impact, remediation recommendations, and high-quality external references related to the issue
+    - Adequate steps to reproduce each finding so the team responsible for remediation can understand and test the issue while putting fixes in place Near, medium, and long-term recommendations specific to the environment
+    - Appendices which include information such as the target scope, OSINT data (if relevant to the engagement), password cracking analysis (if relevant), discovered ports/services, compromised hosts, compromised accounts, files transferred to client-owned systems, any account creation/system modifications, an Active Directory security analysis (if relevant), relevant scan data/supplementary documentation, and any other information necessary to explain a specific finding or recommendation further
+- Post-Remediation Testing
+
+| Status | Finding Severity | Finding Title | Status |
+|:- |:- |:-|:-|
+|1 | High | SQL Injection | Remediated |
+|2 | High | Broken Authentication | Remediated |
+|3 | High | Unrestricted FIle Upload | Remediated |
+|4 | High | Inadequate Web and Egress Filtering | Not Remediated |
+|5 | Medium | SMB Signing Not Enabled | Not Remediated |
+|6 | Low | Directory Listing Enabled | Not Remediated |
+
+- **Practicing Steps** Think about the skills you have gained and what interests you the most from them. From there, we can pick out a few more modules to increase our knowledge, machines to practice on, and Prolabs or Endgames to really put ourselves to the test. The numbers below are a good starting example:
+    - 2x Modules
+    - 3x Retired Machines
+    - 5x Active Machines
+    - 1x Pro Lab / Endgame
+- **Modules** The modules chosen should be categorized according to two different difficulties: technical and offensive. We use these to familiarize ourselves with the attacks and the possibilities and develop an accurate picture and understanding of those attacks. Then we use the provided exercises and their machines to learn to apply these techniques and, at the same time to create efficient notes and screenshots for accurate documentation. Here is a good blueprint for tackling a module:
+
+| Step | Task |
+|:-|:-| 
+|1.|	Read the module |
+|2.|	Practice the exercises |
+|3.|	Complete the module |
+|4.|	Start the module exercises from scratch |
+|5.|	While solving the exercises again, take notes |
+|6.|	Create technical documentation based on the notes |
+|7.|	Create non-technical documentation based on the notes |
