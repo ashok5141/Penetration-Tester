@@ -225,12 +225,40 @@ We must internalize this procedure and use it as a basis for all our technical e
     - 1x Pro Lab / Endgame
 - **Modules** The modules chosen should be categorized according to two different difficulties: technical and offensive. We use these to familiarize ourselves with the attacks and the possibilities and develop an accurate picture and understanding of those attacks. Then we use the provided exercises and their machines to learn to apply these techniques and, at the same time to create efficient notes and screenshots for accurate documentation. Here is a good blueprint for tackling a module:
 
+
+
+- Written Notes Retired Machines
+
 | Step | Task |
 |:-|:-| 
-|1.|	Read the module |
-|2.|	Practice the exercises |
-|3.|	Complete the module |
-|4.|	Start the module exercises from scratch |
-|5.|	While solving the exercises again, take notes |
-|6.|	Create technical documentation based on the notes |
-|7.|	Create non-technical documentation based on the notes |
+|1.| Get the user flag on your own |
+|2.| Get the root flag on your own |
+|3.| Write your technical documentation |
+|4.| Write your non-technical documentation |
+|5.| Compare your notes with the official write-up (or a community write-up if you don't have a VIP subscription |
+|6.| Create a list of information you have missed |
+|7.| Watch [Ippsec's](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) walkthrough and compare it with your notes |
+|8.| Expand your notes and documentation by adding the missed parts |
+
+# Getting Statted
+- Information security (infosec) is a vast field. The field has grown and evolved greatly in the last few years. It offers many specializations, including but not limited to:
+    - Network and infrastructure security
+    - Application security
+    - Security testing
+    - Systems auditing
+    - Business continuity planning
+    - Digital forensics
+    - Incident detection and response
+
+##### Risk Management Process
+> Data protection must focus on efficient yet effective policy implementation without negatively affecting an organization's business operations and productivity. TO achieve this, organizations must follow a process called the **Risk Management Process**. 
+- This process involves the following five steps:
+ steps:
+
+| Step |	Explanation |
+| :- | :- |
+ |Identifying the Risk | Identifying risks the business is exposed to, such as legal, environmental, market, regulatory, and other types of risks. |
+| Analyze the Risk	| Analyzing the risks to determine their impact and probability. The risks should be mapped to the organization's various policies, procedures, and business processes. |
+| Evaluate the Risk	| Evaluating, ranking, and prioritizing risks. Then, the organization must decide to accept (unavoidable), avoid (change plans), control (mitigate), or transfer risk (insure). |
+| Dealing with Risk	| Eliminating or containing the risks as best as possible. This is handled by interfacing directly with the stakeholders for the system or process that the risk is associated with. |
+| Monitoring Risk | All risks must be constantly monitored. Risks should be constantly monitored for any situational changes that could change their impact score, i.e., from low to medium or high impact. |
