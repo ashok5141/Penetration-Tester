@@ -73,6 +73,6 @@
 
 # Weekend part
 ## API Security 
-[Web Service & API Attacks](https://academy.hackthebox.com/module/details/160) 
-[API Attacks](https://academy.hackthebox.com/module/details/268?page=1)
-[Attacking GraphQL](https://academy.hackthebox.com/module/details/271)
+- [Web Service & API Attacks](https://academy.hackthebox.com/module/details/160) 
+- [API Attacks](https://academy.hackthebox.com/module/details/268?page=1)
+- [Attacking GraphQL](https://academy.hackthebox.com/module/details/271)
