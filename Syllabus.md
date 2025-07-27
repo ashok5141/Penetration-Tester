@@ -63,3 +63,16 @@
 
 34. [Introduction to Python 3](https://academy.hackthebox.com/module/details/88) 2 <br>
 [Document & Reporting](https://academy.hackthebox.com/module/details/162)
+
+
+
+
+
+
+
+
+# Weekend part
+## API Security 
+[Web Service & API Attacks](https://academy.hackthebox.com/module/details/160) 
+[API Attacks](https://academy.hackthebox.com/module/details/268?page=1)
+[Attacking GraphQL](https://academy.hackthebox.com/module/details/271)
