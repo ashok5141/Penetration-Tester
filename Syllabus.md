@@ -76,3 +76,7 @@
 - [Web Service & API Attacks](https://academy.hackthebox.com/module/details/160) 
 - [API Attacks](https://academy.hackthebox.com/module/details/268?page=1)
 - [Attacking GraphQL](https://academy.hackthebox.com/module/details/271)
+
+
+## Introduction to Python
+[Introduction to Python](https://academy.hackthebox.com/module/details/88)
