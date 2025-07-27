@@ -78,5 +78,6 @@
 - [Attacking GraphQL](https://academy.hackthebox.com/module/details/271)
 
 
-## Introduction to Python
-[Introduction to Python](https://academy.hackthebox.com/module/details/88)
+## Python and Scripting
+- [Introduction to Python](https://academy.hackthebox.com/module/details/88)
+- [Introduction to Bash Scripting](https://academy.hackthebox.com/module/details/21)
