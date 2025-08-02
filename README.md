@@ -262,3 +262,37 @@ We must internalize this procedure and use it as a basis for all our technical e
 | Evaluate the Risk	| Evaluating, ranking, and prioritizing risks. Then, the organization must decide to accept (unavoidable), avoid (change plans), control (mitigate), or transfer risk (insure). |
 | Dealing with Risk	| Eliminating or containing the risks as best as possible. This is handled by interfacing directly with the stakeholders for the system or process that the risk is associated with. |
 | Monitoring Risk | All risks must be constantly monitored. Risks should be constantly monitored for any situational changes that could change their impact score, i.e., from low to medium or high impact. |
+
+
+#### WHat is a Shell and Types
+- `Shell` On a Linux system, the shell is a program that takes input from the user via the keyboard and passes these commands to the operating system to perform a specific function.
+
+| Shell Type |	 Description |
+|:-|:-|
+| Reverse shell |	Initiates a connection back to a `listener` on our attack box. |
+| Bind shell |	`Binds` to a specific port on the target host and waits for a connection from our attack box. |
+| Web shell |	Runs operating system commands via the web browser, typically `not interactive or semi-interactive`. It can also be used to run single commands (i.e., leveraging a file upload vulnerability and uploading a PHP script to run a single command. |
+
+#### WHat is Port 
+- A `port` can be thought of as a window or door on a house (the house being a remote system). if a window or door is left open or not locked correctly, we can often gain unauthorized access to a house. This is smililar in comuting.
+- Ports are virtual points where network connections begin and end. They are software-based and managed by the host operating system.
+- Ports are associated with a specific process or service and allow computers to differentiate between traffic types.
+- E.g:- SSH traffic flows to a different port than web requests to access a website even though the access requests are sent over the same network connection
+- 2 types of ports
+    - [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
+        - `TCP` is connection-oriented, meaning that a connection between a client and a server must be established before data can be sent. The server must be in a listening state awaiting connection requests from clients.
+    - [User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
+        - `UDP` utilizes a connectionless communication model. There is no "handshake" and therefore introduces a certain amount of unreliability since there is no guarantee of data delivery. 
+
+|Port(s)|	Protocol|
+|:-|:-|
+|20/21 (TCP)|	FTP|
+|22 (TCP)|	SSH|
+|23 (TCP)|	Telnet|
+|25 (TCP)|	SMTP|
+|80 (TCP)|	HTTP|
+|161 (TCP/UDP)|	SNMP|
+|389 (TCP/UDP)|	LDAP|
+|443 (TCP)|	SSL/TLS (HTTPS)|
+|445 (TCP)|	SMB|
+|3389 (TCP)|	RDP|
