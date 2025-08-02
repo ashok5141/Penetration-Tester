@@ -250,6 +250,33 @@ We must internalize this procedure and use it as a basis for all our technical e
     - Digital forensics
     - Incident detection and response
 
+
+_ Folder Structure
+```bash
+ashokreddyz@htb[/htb]$ tree Projects/
+
+Projects/
+└── Acme Company
+    ├── EPT (External Penetration Test)
+    │   ├── evidence
+    │   │   ├── credentials
+    │   │   ├── data
+    │   │   └── screenshots
+    │   ├── logs
+    │   ├── scans
+    │   ├── scope
+    │   └── tools
+    └── IPT (Internal Penetration Test)
+        ├── evidence
+        │   ├── credentials
+        │   ├── data
+        │   └── screenshots
+        ├── logs
+        ├── scans
+        ├── scope
+        └── tools
+```
+
 ##### Risk Management Process
 > Data protection must focus on efficient yet effective policy implementation without negatively affecting an organization's business operations and productivity. TO achieve this, organizations must follow a process called the **Risk Management Process**. 
 - This process involves the following five steps:
@@ -296,3 +323,9 @@ We must internalize this procedure and use it as a basis for all our technical e
 |443 (TCP)|	SSL/TLS (HTTPS)|
 |445 (TCP)|	SMB|
 |3389 (TCP)|	RDP|
+
+[List of Common Ports](/Images/common-ports.pdf)
+
+#### What is a Web Server
+- A web server is an application that runs on the back-end server, which handles all the `HTTP` traffic from client-side browser, routes it to the requests destination pages, and finally responds to the client-side. 
+- Web server usually run on TCP ports `80` or `443` and are responsiable for connecting end-users to various parts of the web application, in addition to handling their various responses:
