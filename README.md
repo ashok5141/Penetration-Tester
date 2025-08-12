@@ -329,3 +329,23 @@ Projects/
 #### What is a Web Server
 - A web server is an application that runs on the back-end server, which handles all the `HTTP` traffic from client-side browser, routes it to the requests destination pages, and finally responds to the client-side. 
 - Web server usually run on TCP ports `80` or `443` and are responsiable for connecting end-users to various parts of the web application, in addition to handling their various responses:
+
+##### Types of Shells
+| Type of Shell	| Method of Communication |
+|:-|:-|
+| Reverse Shell	| Connects back to our system and gives us control through a reverse connection. |
+| Bind Shell |	Waits for us to connect to it and gives us control once we do. |
+| Web Shell |	Communicates through a web server, accepts our commands through HTTP parameters, executes them, and prints back the output. |
+
+> Web Server and Location
+
+| Web Server	| Default Webroot |
+|:-|:-|
+| Apache	| /var/www/html/ |
+| Nginx |	/usr/local/nginx/html/ |
+| IIS | c:\inetpub\wwwroot\ |
+| XAMPP | C:\xampp\htdocs\ |
+
+
+
+
